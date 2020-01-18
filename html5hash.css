@@ -1,0 +1,169 @@
+div#placeholder {
+    text-align: center;
+    border: 1px dashed black;
+    width: auto;
+    padding: 0.5em;
+    cursor: pointer;
+}
+header {
+    margin-bottom: 1em;
+    overflow: hidden;
+}
+
+#algo_selection {
+    border-radius: 6px;
+    display: table-cell;
+    float: left;
+}
+
+header h1 {
+    font-style: normal;
+    text-align: center;
+    margin: 0px;
+    float: right;
+}
+
+#social {
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+}
+
+
+
+
+ul#list {
+    list-style: none;
+    padding-left: 0em;
+}
+
+ul#list li {
+    border:  1px solid #d6d6d6;
+    border-radius: 6px;
+    margin: 0.4em;
+    padding: 0.3em;
+}
+
+body {
+    background: #ebebeb;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+div#centerfield {
+    border: 1px solid #808080;
+    width: 80%;
+    min-height: 30em;
+    min-width: 30em;
+    
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 2.5em;
+    padding: 1%;
+
+    border-radius: 6px;
+}
+
+aside#explanation {
+    border:  1px solid #d6d6d6;
+    border-radius: 6px;
+    margin: 0.4em;
+    padding: 0.3em;
+    text-align: center;
+}
+
+footer {
+    font-size: 0.9em;
+    color: #808080;
+    text-align: center;
+}
+
+.entrystyle {
+    background-color: #FFFFF0;
+}
+
+.resultdiv {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    padding: 0.5em;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    background-color: white;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.resulttaken {
+    font-size: small;
+}
+
+.algoname {
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.algoresult {
+    word-break: break-all;
+}
+
+.progresstext {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+input#hiddenFilesSelector {
+    display:  none;
+}
+
+#overlay {
+    position: absolute;
+    background: black;
+    opacity: 0.8;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    
+    width: 100%;
+    height: 100%;
+}
+
+#overlaytextbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    background: white;
+    width: 20em;
+    height: 20em;
+    margin-left: -10em;
+    margin-top: -10em;
+    padding: 1em;
+    z-index: 2;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#algoshide {
+    text-align: right;
+}
+
+#algosshow {
+    padding-left: 1em;
+}
+
+.browserad {
+    display: block;
+    margin: 1em;
+}
+
+#overlaytextbox h3 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#browserads {
+    text-align: center;
+}
+
+.browserad a img {
+    margin: 0.1em;
+    border: none;
+}
